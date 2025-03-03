@@ -40,7 +40,7 @@ const Home = () => {
       case 'settings':
         return <Settings />;
       default:
-        return <h2>Welcome, {user?.email}!</h2>;
+        return <h2>Welcomee, {user?.email}!</h2>;
     }
   };
 
